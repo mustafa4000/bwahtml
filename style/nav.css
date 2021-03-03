@@ -1,0 +1,49 @@
+/* INstall FOnt */
+@font-face {
+    font-family: abrilFat; /* membuat font  */
+    src: url('../fonts/AbrilFatface-Regular.ttf');  /* folder untuk membuat font */
+}
+
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background: rebeccapurple;
+}
+
+.header .logo {
+    font-size: 32px;
+    float: left;
+    font-family: abrilFat; /*  table untuk membuat font */
+}
+
+.header .navigation {
+    float: right;
+    margin-top: 40;
+}
+
+.header .navigation li {
+    float: right;
+    margin-left: 20px;
+    font-size: 18px;
+    display: block; /* untuk mengghilangkan titik pada li */
+}
+
+.header .navigation li a {
+    color: #fff;
+    text-decoration: none; /* hapus underline atau garis bawah pada ul */
+}
+
+.header .navigation li a:hover {  /*  :hover =>  memberikan warna ketika kita arahakan ke hurufnya  */
+    color: red;
+    text-decoration: none; /* hapus underline atau garis bawah pada ul */
+}
+
+.header .navigation li a:visited {  /*  :visited =>  merubah warna menjadi tetap setelah di kunjungi  ke hurufnya  */
+    color: red;
+}

@@ -1,0 +1,17 @@
+body {
+    margin: 0; /* jarak antara item kepada item  */
+    /* padding: 0;  =>  jarak pada item kepada item itu  */
+}
+
+
+.fitur {
+    width: 100%;  /* mengatur lebar  */
+    /* height: 50%;   => mengarur tinggi    */
+    overflow: hidden; /* mengatur tinggi otomatis   */
+    background: green;
+}
+
+.admin {
+    font-family: DotGothic16;  /* google font versi 2    */
+}
+
